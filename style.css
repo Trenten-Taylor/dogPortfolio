@@ -1,0 +1,71 @@
+body {
+font-family: 'Cormorant SC', serif;
+font-family: 'Inconsolata', monospace;
+background-color: black;
+}
+
+img {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainPage {
+    background: url(imgs/henny_zay/hzone.jpeg);
+    background-size: 100%;
+    max-height: 100vh;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.navBar-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 1.5px 1.5px rgb(145, 75, 17);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+h1 {
+    color: white;
+    padding-bottom: 0;
+}
+.main-h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 8px;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 200%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .container-body {
+    display: flex;
+   width: 100%;
+   justify-content: space-around;
+   padding-top: 2.5rem;
+  }
