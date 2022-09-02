@@ -75,14 +75,14 @@ h1 {
     align-items: baseline;
     display: grid;
     grid-template-rows: 20% 80%;
-    margin: 0;
-    padding: 0;
+    margin: 2rem;
+    padding: 2rem;
     font-size: 1.5rem;
 }
 
   .dog-header-right {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
     display: flex;
     justify-content: center;
     height: 80vh;
@@ -94,6 +94,7 @@ h1 {
     height: 80vh;
     justify-content: space-around;
     margin-top: 3rem;
+    gap: 2rem;
   }
 
   .container-dog3 {
@@ -109,6 +110,7 @@ h1 {
     height: 80vh;
     justify-content: space-around;
     margin-top: 3rem;
+    gap: 2rem;
   }
 
   .container-dog5 {
@@ -116,6 +118,7 @@ h1 {
     height: 80vh;
     justify-content: space-around;
     margin-top: 3rem;
+    gap: 2rem;
   }
  
  
